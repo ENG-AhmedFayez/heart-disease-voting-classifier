@@ -1,6 +1,6 @@
 # Heart Disease Classification
 
-This notebook compares several classifiers on the Heart Failure Prediction dataset, including hard and soft voting. It covers a basic data check, preprocessing, cross-validation, and model evaluation.
+I built this notebook end to end to study the Heart Failure Prediction dataset and compare several classifiers, including hard and soft voting. It walks through data checks, preprocessing, cross-validation, and final model evaluation.
 
 This is a small educational dataset. The results are for practice and are not suitable for medical decisions.
 
@@ -38,7 +38,3 @@ Open `notebooks/heart_disease_voting_classifier.ipynb` and run all cells.
 The target column is `HeartDisease` (`1` = positive label, `0` = negative label). The notebook keeps identical rows because the dataset has no patient identifier. Preprocessing is fitted within each training fold, and the test set is held out for final evaluation. The probabilities and scores are not clinically validated.
 
 Dataset: [Federico Sorian, Heart Failure Prediction](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction).
-
-## My contribution
-
-I wrote the notebook, including the data preparation, classifier comparisons, cross-validation, and test-set evaluation.
