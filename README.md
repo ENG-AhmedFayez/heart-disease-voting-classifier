@@ -38,3 +38,7 @@ Open `notebooks/heart_disease_voting_classifier.ipynb` and run all cells.
 The target column is `HeartDisease` (`1` = positive label, `0` = negative label). The notebook keeps identical rows because the dataset has no patient identifier. Preprocessing is fitted within each training fold, and the test set is held out for final evaluation. The probabilities and scores are not clinically validated.
 
 Dataset: [Federico Sorian, Heart Failure Prediction](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction).
+
+
+## Related project
+[Hotel Booking Cancellation Analysis](https://github.com/ENG-AhmedFayez/Hotel_Booking_analysis) — explore a second end-to-end project focused on hotel booking cancellations.
